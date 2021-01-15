@@ -1,0 +1,42 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-left: 5% 5%;
+}
+
+.container {
+    background-color: blanchedalmond;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.social-media-icon {
+    display: inline;
+    margin-left: 85%;
+}
+
+.navbar {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+
+.navbar-menu {
+    background-color: lightgray;
+    flex: 1;
+    max-width: 100%;
+}
+
+.navbar-menu, li {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
