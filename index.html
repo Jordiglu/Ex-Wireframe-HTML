@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercici Web</title>
+
     <!--CSS styles-->
     <link rel="stylesheet" href="css/styles.css">
+
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet">
+
     <!--Fontawesome_icon-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -20,7 +23,7 @@
 <body>
     <!--Logo  & Social Media Logo-->
     <header class="container">
-        <label class="logo">Upcycling <span>bcn</span>
+        <label class="logo"><a href="#">Upcycling <span>bcn</span></a>
         </label>
         <div class="social-media-icon">
             <i class="fab fa-facebook"></i>
@@ -43,28 +46,36 @@
     <section class="wrapper">
         <article class="card">
             <img src="img/blog.jpg" alt="" class="img-size">
-            <h1>Blog
-                <button class="btn"><a href="#">Mes Info</a></button>
-            </h1>
+            <header>
+                < <h2>Blog
+                    <button class="btn"><a href="#">Mes Info</a></button>
+                    </h2>
+            </header>
         </article>
 
         <article class="card">
             <img src="img/shop.jpg" alt="" class="img-size">
-            <h1>Tienda Online
-                <button class="btn"><a href="#">Mes Info</a></button>
-            </h1>
+            <header>
+                <h2>Tienda Online
+                    <button class="btn"><a href="#">Mes Info</a></button>
+                </h2>
+            </header>
         </article>
 
         <article class="card">
             <img src="img/workshops.jpg" alt="" class="img-size">
-            <h1>Formaciones
-                <button class="btn"><a href="#">Mes Info</a></button>
-            </h1>
+            <header>
+                <h2>Formaciones
+                    <button class="btn"><a href="#">Mes Info</a></button>
+                </h2>
+            </header>
     </section>
-    <section class="wrapper">
+    <section class="wrapper-main">
         <article class="main-card">
-            <img src="img/blog.jpg" alt="" class="img-size">
-            <h1>Blog</h1>
+            <img src="img/circular_economy.jpg" alt="" class="img-size">
+            <header>
+                <h2>Economia Circular</h2>
+            </header>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Distinctio dolor reiciendis facilis placeat
                 omnis quidem ipsam eum debitis suscipit quia deleniti maiores odio dicta tempore quae velit, cupiditate
@@ -73,8 +84,10 @@
         </article>
 
         <article class="main-card">
-            <img src="img/shop.jpg" alt="" class="img-size">
-            <h1>Tienda Online</h1>
+            <img src="img/waste_man.png" alt="" class="img-size">
+            <header>
+                <h2>Energias renovables</h2>
+            </header>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quo animi distinctio. Quas, in, culpa enim
                 ullam dicta a id quis deleniti dolore earum nulla laudantium assumenda impedit. Accusantium, enim.</p>
             <button class="btn"><a href="#">Accedir</a></button>
@@ -82,10 +95,10 @@
     </section>
     <footer class="footer-container">
         <address class="footer-content">
-            <span class="">Contact: <a href="#">upcyclinginbcn.com</a></span>
-            <span class="">Telf: <a href="#"> +34722202333</a></span>
+            <span>Contact: <a href="#">upcyclinginbcn.com</a></span>
+            <span>Telf: <a href="#"> +34722202333</a></span>
             <div class="footer-bottom">
-                <p>Copyright &copy;2021 UpcyclingBCN</p>
+                <p id="copyright">Copyright &copy;2021 UpcyclingBCN</p>
             </div>
         </address>
 
